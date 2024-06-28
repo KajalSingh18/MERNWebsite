@@ -38,6 +38,6 @@ const PORTS = 5000;
 
 connectDb().then(() => {
 app.listen(PORTS, () => {
-    console.log(`server is running at port: ${PORTS}`);
+    
 });
 });
